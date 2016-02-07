@@ -7,7 +7,7 @@
 ### Usage
 
 ```bash
-docker run -v $(pwd):/mnt --privileged daniel-guerra/build-kali
+docker run -v $(pwd):/mnt --privileged danielguerra/kali
 ```
 
 If everything went well you end up with kali-root.tar.gz in your current dir (pwd).
